@@ -133,9 +133,9 @@ h2 {
 .hero {
     min-height: 650px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     gap: 40px;
 }
 
