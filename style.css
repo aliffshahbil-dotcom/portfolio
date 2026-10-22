@@ -445,13 +445,6 @@ body.dark-theme {
         align-items: flex-start;
         gap:30px;
     }
-
-    .home-img{
-        width:100%;
-        flex:none;
-        justify-content: center;
-    }
-
     .home-img img {
         max-width: 300px;
         height: 350px;
