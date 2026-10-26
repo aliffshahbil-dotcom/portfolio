@@ -260,6 +260,15 @@ h2 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
+.project-card img{
+    width:50%;
+    height:200px;
+    object-fit: cover;
+    border-radius: 10px;
+    display:block;
+    
+}
+
 .project-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -469,6 +478,13 @@ body.dark-theme {
 
     .project-card {
         padding: 23px;
+    }
+    .project-card img{
+        width: 100%;
+        height: auto;
+        max-width: 250px;
+        object-fit: contain;
+        border-radius: 10px;
     }
 
     .footer {
